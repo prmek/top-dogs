@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="bootstrap-3.3.7-dist">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="bootstrap-3.3.7-dist"/>
+    </wb-module>
+</project-modules>
