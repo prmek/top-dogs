@@ -1,16 +1,18 @@
 @CHARSET "ISO-8859-1";
 
 
-	body{
-		background-color:#D6D7E9;
-		font-family: 'Open Sans', sans-serif;
-		color:black;
-		}
+	
 		
 	header{
 		text-align:center;
 		padding:20px;
 		white-space: nowrap;
+		}
+	
+	body{
+		background-color:#D6D7E9;
+		font-family: 'Open Sans', sans-serif;
+		color:black;
 		}
 	
 	.fixed-side-column {
@@ -19,11 +21,7 @@
 		float: left;
 		padding: 20px;   
 			}
-	.content {
-		margin-left:230px;
-		padding-right:50px;
-		font-size:large;}
-			
+	
 	.nav li a {	color:black;}	
 	
 	.nav li a:hover {
@@ -37,27 +35,42 @@
 		border:none;
 		border-left: 6px solid #000000;}
 	
+	
+	.content {
+		margin-left:230px;
+		padding-right:50px;
+		font-size:large;}
+		
+	
 	h1{
 		font-size:x-large;
 		padding-bottom: 0.4em;
-		margin-bottom: 2em;
+		margin-bottom: 25px;
 		letter-spacing: .15em;
 		text-transform: uppercase;
 		border-bottom: 3px solid #e9e8d6;
 		text-align:right;
 		font-weight: bold;
-		color:#333;
-		
-		}
-	p, .Beschreibung , .Kursinfos{color:black;
-		margin:20px;
-		
-		}
-	
-
+		color:#333;}
 	
 	h1 span{font-weight: normal;font-size:80%;letter-spacing: 0em;
 	}
+	
+	h3{padding:20px}	
+		}
+	p {color:black;
+		margin:20px;}
+	
+	.Beschreibung, .Kursinfos
+		{color:black;
+		margin:20px;}
+	
+	.Kursinfos
+		{color:black;
+		margin:30px;}
+	
+	.Beschreibung li {padding-bottom:3px}
+	
 	#Hintergrund {
 		background: url(../img/Logograu.gif);
 		background-repeat: no-repeat;
