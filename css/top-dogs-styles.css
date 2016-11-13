@@ -5,7 +5,6 @@
 		
 	header{
 		text-align:center;
-		padding:20px;
 		white-space: nowrap;
 		}
 	
@@ -45,6 +44,7 @@
 	h1{
 		font-size:x-large;
 		padding-bottom: 0.4em;
+		margin-top:0px;
 		margin-bottom: 25px;
 		letter-spacing: .15em;
 		text-transform: uppercase;
@@ -58,18 +58,20 @@
 	
 	h3{padding:20px}	
 		}
-	p {color:black;
-		margin:20px;}
+	p {color:green;
+		padding:25px;}
 	
-	.Beschreibung, .Kursinfos
+	.Beschreibung
 		{color:black;
-		margin:20px;}
+		margin:40px;}
+	
+	.Beschreibung li {padding-bottom:3px}
 	
 	.Kursinfos
 		{color:black;
 		margin:30px;}
 	
-	.Beschreibung li {padding-bottom:3px}
+	
 	
 	#Hintergrund {
 		background: url(../img/Logograu.gif);
