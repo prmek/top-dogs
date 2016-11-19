@@ -5,6 +5,7 @@
 		
 	header{
 		text-align:center;
+		padding:20px; padding-bottom:0px;
 		white-space: nowrap;
 		}
 	
@@ -78,6 +79,7 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
+		
 		}
 	.panel-body br {line-height:200%}
 	.panel-body a {color:black}
@@ -89,4 +91,32 @@
   		 content: "/ ";
    		 padding: 0 5px;
 }
+
+table {
+  overflow: hidden;
+  border-color:white !important;
+  background:rgba(233, 232, 214, .7) !important;
+  font-size:small !important;
+}
+
+table, td, th {
+	position: relative;
+	width: 200px;
+	border-color:white !important;
+}
+th  {
+    background-color: white;text-align:center;    }
+
+td:hover::after,
+th:hover::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  left: 0;
+  top: -5000px;
+  height: 10000px;
+  width: 100%;
+  z-index: -1;
+}
+
 	
